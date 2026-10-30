@@ -11,7 +11,7 @@ Trademark and Copyright (c) NyxArete.
 - Certificate issuance support
 - Analytics endpoints for completion and pass rates
 - Prisma schema built for PostgreSQL
-- Tailored deployment for Destiny Springs Healthcare psychiatric acute inpatient training
+- NyxArete workforce training for psychiatric acute inpatient care
 
 ## Quick Start (Local)
 1. Copy `.env.example` to `.env` and set values.

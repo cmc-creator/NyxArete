@@ -1,6 +1,6 @@
-# Destiny Springs Healthcare Annual Training Prototype
+# NyxArete Annual Training Prototype
 
-White-label product edition for Destiny Springs Healthcare.
+NyxArete workforce training platform.
 Trademark and Copyright (c) NyxArete.
 
 This prototype demonstrates a premium interactive training experience for:
@@ -66,7 +66,7 @@ pwsh ./tools/extract-pptx-slides.ps1
 - `docs/deck-slide-inventory.csv`
 - `docs/deck-merge-map.csv`
 
-These files provide a concrete Keep/Merge/Rewrite/Retire map from the two source PowerPoints.
+These generated files provide a Keep/Merge/Rewrite/Retire map for the source PowerPoints you supply. No client source decks or extracted slide inventories are bundled with the platform.
 
 ## LMS Packaging Starter
 
@@ -99,7 +99,7 @@ Set runtime config in browser local storage:
 
 ```javascript
 localStorage.setItem("nyxApiBase", "https://your-backend-domain")
-localStorage.setItem("nyxOrgSlug", "destiny-springs-healthcare")
+localStorage.setItem("nyxOrgSlug", "nyxarete")
 ```
 
 Or set defaults in `runtime-config.js`.

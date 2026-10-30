@@ -155,7 +155,7 @@ const REQUIRE_LOGIN = requireLoginSetting !== null
 const ORG_SLUG =
   localStorage.getItem("nyxOrgSlug") ||
   window.NYX_ORG_SLUG ||
-  "destiny-springs-healthcare";
+  "nyxarete";
 
 function getAuthToken() {
   return localStorage.getItem("nyxAuthToken") || "";
@@ -749,7 +749,7 @@ const easterEggs = [
   {
     description: "Choose something completely unreasonable",
     trigger: (choice) => choice.score === 0 && Math.random() < 0.15,
-    response: "Nice try, but Destiny Springs isn't ready for that level of creativity. 😄",
+    response: "Nice try, but NyxArete isn't ready for that level of creativity. 😄",
   },
 ];
 
@@ -2170,7 +2170,7 @@ function slugifyXapiValue(value) {
 
 function buildXapiStatement(verb, detail = {}) {
   const identity = getLearnerIdentity();
-  const courseId = "destiny-springs-annual-service-conduct";
+  const courseId = "nyxarete-annual-service-conduct";
   const objectKey = slugifyXapiValue(
     detail.moduleId || detail.lesson || detail.scenario || detail.title || detail.index || verb
   );

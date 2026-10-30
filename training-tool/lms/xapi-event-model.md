@@ -16,7 +16,7 @@
 {
   "actor": {"name": "employee", "account": {"homePage": "https://nyxarete.com", "name": "employee-id"}},
   "verb": {"id": "https://nyxarete.com/verbs/answered-assessment", "display": {"en-US": "answered-assessment"}},
-  "object": {"id": "https://nyxarete.com/training/destiny-springs-annual-service-conduct/final-assessment"},
+  "object": {"id": "https://nyxarete.com/training/nyxarete-annual-service-conduct/final-assessment"},
   "result": {"score": {"raw": 154}, "success": true},
   "context": {
     "extensions": {

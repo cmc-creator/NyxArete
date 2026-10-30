@@ -1,7 +1,7 @@
 # Annual Training Blueprint
 
 ## Program Goal
-Deliver a high-engagement annual training for all Destiny Springs Healthcare psychiatric acute care inpatient staff that strengthens Service Excellence and Code of Conduct behaviors using interactive, scenario-driven learning.
+Deliver a high-engagement annual training for all psychiatric acute care inpatient staff that strengthens Service Excellence and Code of Conduct behaviors using interactive, scenario-driven learning.
 
 ## Audience Segments
 - Clinical staff (nursing, therapists, psychiatrists, behavioral techs)
@@ -10,7 +10,7 @@ Deliver a high-engagement annual training for all Destiny Springs Healthcare psy
 - New hires using annual module as onboarding refresher
 
 ## Product Ownership
-- White-label client edition for Destiny Springs Healthcare.
+- NyxArete workforce training platform.
 - Trademark and Copyright (c) NyxArete.
 
 ## Duration

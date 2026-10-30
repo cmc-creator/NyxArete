@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest identifier="DSH-Annual-Training" version="1.0"
+<manifest identifier="NyxArete-Annual-Training" version="1.0"
   xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
   xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
   xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
@@ -19,7 +19,7 @@
 
   <organizations default="ORG-1">
     <organization identifier="ORG-1">
-      <title>Destiny Springs Healthcare Psychiatric Acute Inpatient Annual Training</title>
+      <title>NyxArete Psychiatric Acute Inpatient Annual Training</title>
       <item identifier="ITEM-1" identifierref="RES-1" isvisible="true">
         <title>Service Excellence and Code of Conduct</title>
       </item>
