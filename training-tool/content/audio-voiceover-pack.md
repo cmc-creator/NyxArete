@@ -10,7 +10,7 @@ This pack provides short narration scripts, transition lines, and accessibility 
 
 ## Intro Narration
 
-"Welcome to the Excellence Vault. In this annual psychiatric acute inpatient mission, every choice you make strengthens trust, safety, and integrity at Destiny Springs Healthcare."
+"Welcome to the Excellence Vault. In this annual psychiatric acute inpatient mission, every choice you make strengthens trust, safety, and integrity in your organization."
 
 "Select your role track, then work through the training path built for your daily workflow."
 
@@ -41,7 +41,7 @@ Caption block example:
 
 ```text
 [00:00] Welcome to the Excellence Vault.
-[00:05] In this annual psychiatric acute inpatient mission, every choice you make strengthens trust, safety, and integrity at Destiny Springs Healthcare.
+[00:05] In this annual psychiatric acute inpatient mission, every choice you make strengthens trust, safety, and integrity in your organization.
 [00:14] Select your role track, then work through the training path built for your daily workflow.
 ```
 

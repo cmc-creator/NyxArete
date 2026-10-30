@@ -1,6 +1,6 @@
 # Production Deployment Guide
 
-This guide deploys the Destiny Springs Healthcare white-label edition of the NyxArete training platform.
+This guide deploys the NyxArete training platform.
 
 ## Architecture
 - Frontend: Vercel static site from repo root
@@ -35,12 +35,12 @@ Environment Variables:
 - `JWT_SECRET`
 - `DEFAULT_OWNER_EMAIL`
 - `DEFAULT_OWNER_PASSWORD`
-- `DEFAULT_ORG_NAME=Destiny Springs Healthcare`
+- `DEFAULT_ORG_NAME=NyxArete`
 - `CORS_ALLOWED_ORIGINS` (comma-separated allowed frontend origins)
 
 Recommended values:
 - `DEFAULT_OWNER_EMAIL=owner@nyxarete.com`
-- `DEFAULT_ORG_NAME=Destiny Springs Healthcare`
+- `DEFAULT_ORG_NAME=NyxArete`
 - `JWT_SECRET=` long random secret, minimum 32 characters
 - `CORS_ALLOWED_ORIGINS=https://your-frontend-project.vercel.app`
 
@@ -76,7 +76,7 @@ npm run seed
 ```
 
 This creates:
-- Organization: Destiny Springs Healthcare
+- Organization: NyxArete
 - Owner account
 - Default course: `SE-COC-ANNUAL` version `2026.1`
 
@@ -94,7 +94,7 @@ Set:
 
 ```javascript
 window.NYX_API_BASE = "https://your-backend-project.vercel.app";
-window.NYX_ORG_SLUG = "destiny-springs-healthcare";
+window.NYX_ORG_SLUG = "nyxarete";
 ```
 
 Commit and push that change, then redeploy frontend.
@@ -103,7 +103,7 @@ Commit and push that change, then redeploy frontend.
 Frontend:
 - Open home page
 - Confirm redirect into training tool
-- Confirm branding shows Destiny Springs Healthcare and NyxArete footer note
+- Confirm NyxArete branding and footer notice
 
 Backend:
 - Open `https://your-backend-project.vercel.app/health`
@@ -129,7 +129,7 @@ Payload:
 {
   "email": "owner@nyxarete.com",
   "password": "YOUR_PASSWORD",
-  "organizationSlug": "destiny-springs-healthcare"
+  "organizationSlug": "nyxarete"
 }
 ```
 
